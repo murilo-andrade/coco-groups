@@ -49,6 +49,41 @@ def is_vegetable(cls_id):
     else:
         return False
 
+def is_furniture(cls_id):
+    furnitures = [56, 57, 59, 60]
+    if cls_id in furnitures:
+        return True
+    else:
+        return False
+
+def is_electronic(cls_id):
+    electronics = [62, 63, 64, 65, 66, 67]
+    if cls_id in electronics:
+        return True
+    else:
+        return False
+
+def is_sportsgear(cls_id):
+    sportsgears = [29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
+    if cls_id in sportsgears:
+        return True
+    else:
+        return False
+
+def is_food(cls_id):
+    foods = [46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+    if cls_id in foods:
+        return True
+    else:
+        return False
+
+def is_animal(cls_id):
+    animals = [14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+    if cls_id in animals:
+        return True
+    else:
+        return False
+
 
 if __name__ == "__main__":
     # Just a test
